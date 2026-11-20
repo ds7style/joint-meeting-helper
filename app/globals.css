@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* 디자인: 공공기관 누리집 같은 차분한 남색·청회색 톤 (밝은 화면 하나만 쓴다) */
+:root {
+  --background: #f3f6fb;
+  --foreground: #262f30;
+  --navy: #203864;
+  --navy-deep: #092958;
+  --steel: #4b6a96;
+  --teal: #4a8aa5;
+  --sky: #e5edf8;
+  --line: #c9d3e3;
+  --muted: #5b6472;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-steel: var(--steel);
+  --color-teal: var(--teal);
+  --color-sky: var(--sky);
+  --color-line: var(--line);
+  --color-muted: var(--muted);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Pretendard GOV", "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Noto Sans KR", system-ui, sans-serif;
+  line-height: 1.6;
+}

@@ -1,0 +1,13 @@
+# Vercel에 올리지 않을 것 (배포에 필요 없는 내부 문서·도구 폴더·비밀 값)
+.env
+.env*
+.bkit
+.claude
+trash-can
+PRD.md
+PLAN.md
+DESIGN.md
+CLAUDE.md
+AGENTS.md
+README.md
+tsconfig.tsbuildinfo
